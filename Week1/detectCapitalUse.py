@@ -1,0 +1,2 @@
+def detectCapitalUse(self, word: str) -> bool:
+        return word.isupper() or word.islower() or word[1:].islower()
